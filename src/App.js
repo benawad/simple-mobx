@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-import CounterStore from "./CounterStore";
-import Counter from "./Counter";
+import PeopleStore from "./PeopleStore";
+import People from "./People";
 
 class App extends Component {
   render() {
-    return <Counter store={CounterStore} />;
+    return <People store={PeopleStore} />;
   }
 }
 
